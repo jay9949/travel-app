@@ -53,7 +53,7 @@ export const FEATURES = [
       "All time new locations for hiking, because we have a worldwide community of climbers who share their best location for hiking.",
   },
   {
-    title: "Summer campsites view with waterfall",
+    title: "Summer campsites with waterfall",
     icon: "/waterfall.svg",
     variant: "orange",
     description:
