@@ -40,6 +40,31 @@ const About = () => {
             </p>
           </div>
         </div>
+
+        <div className="flex items-center justify-between px-6 pt-[5rem]">
+          <div className="text-center">
+            <Image src="/rated.svg" alt="rated" width={80} height={80} />
+            <h2 className="pt-4 font-semibold">Higest Rated</h2>
+          </div>
+          <div className="text-center">
+            <Image src="/safety.svg" alt="safety" width={80} height={80} />
+            <h2
+              className="pt-4 font-semibold
+            "
+            >
+              High On Safety
+            </h2>
+          </div>
+          <div className="text-center">
+            <Image src="/verified.svg" alt="verified" width={80} height={80} />
+            <h2
+              className="pt-4 font font-semibold
+            "
+            >
+              Verified
+            </h2>
+          </div>
+        </div>
       </div>
     </section>
   );

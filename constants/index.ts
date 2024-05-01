@@ -45,6 +45,20 @@ export const FEATURES = [
     description:
       "Lots of new locations every month, because we have a worldwide community of climbers who share their best experiences with climbing",
   },
+  {
+    title: "Enjoy your Camping with hiking",
+    icon: "/hiking.svg",
+    variant: "orange",
+    description:
+      "All time new locations for hiking, because we have a worldwide community of climbers who share their best location for hiking.",
+  },
+  {
+    title: "Summer campsites view with waterfall",
+    icon: "/waterfall.svg",
+    variant: "orange",
+    description:
+      "All time new locations with waterfall view,& we have a all  summer campsites location some inside wild life because of family also enjoy nature",
+  },
 ];
 
 // FOOTER SECTION
