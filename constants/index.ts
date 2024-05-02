@@ -73,6 +73,7 @@ export const FOOTER_LINKS = [
       "Privacy Policy",
       "Contact Us",
     ],
+    href: ["/about", "/", "/", "/", "/", "/contact"],
   },
   {
     title: "Our Community",
