@@ -62,25 +62,6 @@ export const FEATURES = [
 ];
 
 // FOOTER SECTION
-export const FOOTER_LINKS = [
-  {
-    title: "Learn More",
-    links: [
-      "About Hilink",
-      "Press Releases",
-      "Environment",
-      "Jobs",
-      "Privacy Policy",
-      "Contact Us",
-    ],
-    href: ["/about", "/", "/", "/", "/", "/contact"],
-  },
-  {
-    title: "Our Community",
-    links: ["Climbing xixixi", "Hiking hilink", "Hilink kinthill"],
-  },
-];
-
 export const FOOTER_CONTACT_INFO = {
   title: "Contact Us",
   links: [

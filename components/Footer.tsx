@@ -1,7 +1,32 @@
-import { FOOTER_CONTACT_INFO, FOOTER_LINKS, SOCIALS } from "@/constants";
+import { FOOTER_CONTACT_INFO, SOCIALS } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+
+interface ILink {
+  href: string;
+  label: string;
+}
+
+export const FOOTER_LINKS = [
+  {
+    title: "Learn More",
+    links: [
+      { label: "About Hilink", href: "/about" },
+      { label: "Services", href: "/service" },
+      { label: "Campers", href: "/campers" },
+      { label: "Contact Us", href: "/contact" },
+    ] as ILink[],
+  },
+  {
+    title: "Our Community",
+    links: [
+      { label: "Climbing xixixi", href: "/climbing" }, // Update href as needed
+      { label: "Hiking hilink", href: "/hiking" }, // Update href as needed
+      { label: "Hilink kinthill", href: "/kinthill" }, // Update href as needed
+    ] as ILink[],
+  },
+];
 
 const Footer = () => {
   return (
@@ -17,8 +42,8 @@ const Footer = () => {
               <FooterColumn title={columns.title}>
                 <ul className="regular-14 flex flex-col gap-4 text-gray-30">
                   {columns.links.map((link) => (
-                    <Link href={link} key={link}>
-                      {link}
+                    <Link href={link.href} key={link.label}>
+                      {link.label}
                     </Link>
                   ))}
                 </ul>
