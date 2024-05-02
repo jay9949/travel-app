@@ -21,9 +21,9 @@ export const FOOTER_LINKS = [
   {
     title: "Our Community",
     links: [
-      { label: "Climbing xixixi", href: "/" }, // Update href as needed
-      { label: "Hiking hilink", href: "/" }, // Update href as needed
-      { label: "Hilink kinthill", href: "/" }, // Update href as needed
+      { label: "Climbing xixixi", href: "/" },
+      { label: "Hiking hilink", href: "/" },
+      { label: "Hilink kinthill", href: "/" },
     ] as ILink[],
   },
 ];
